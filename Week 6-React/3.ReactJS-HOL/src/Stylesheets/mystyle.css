@@ -1,0 +1,46 @@
+/* Center the whole page content */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+  height: 100vh;            /* Full viewport height */
+  background-color: #e8f5e9;
+}
+
+/* Styling for the card */
+.score-card {
+  border: 2px solid #4CAF50;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f0fff0;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* Heading style */
+.score-card h2 {
+  color: #8B0000; /* Dark red heading */
+  text-align: center;
+}
+
+/* Paragraph style */
+.score-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Colored labels and values */
+.label {
+  font-weight: bold;
+}
+
+.total-label { color: #8B008B; }        /* Dark magenta */
+.total-value { color: #FF1493; }        /* Deep pink */
+
